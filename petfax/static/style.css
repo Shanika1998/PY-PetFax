@@ -1,0 +1,10 @@
+body {
+    background-color: #86c4e3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
