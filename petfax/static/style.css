@@ -2,9 +2,40 @@ body {
     background-color: #86c4e3;
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 20px;
   }
-
+header {
+    background-color: #03a4c4;
+    color: #fff;
+    padding: 20px;
+  }
   h1, h2, h3 {
     color: #333;
     margin-bottom: 10px;
   }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .a {
+    background-color: #0056b3;
+  }
+img {
+    border-radius: 8px;
+    width: 150px;
+    
+}

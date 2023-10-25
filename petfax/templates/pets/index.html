@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Document</title>
 </head>
 
 <body>
     <div class="container">
     <h1>Welcome to PetFax</h1>
+    <div class="pets-container">
     {% for pet in pets %}
         <h2>{{ pet.pet_name }}</h2>
         <img src="{{ pet.pet_photo }}" alt="Photo of pet"/>
         <a href="/pets/{{pet.pet_id}}">Learn More</a>
+    </div>
     {% endfor %}
 </div>
 <div class="callout">
